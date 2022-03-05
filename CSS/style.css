@@ -1,0 +1,28 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Raleway:ital@1&display=swap");
+
+/* Importing component files */
+@import url("components/containers.css");
+@import url("components/avatar.css");
+@import url("components/Button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+/* General style rules for fonts and colors */
+body {
+	font-family: "EB Garamond", serif;
+	font-size: 18px;
+	margin: 0px;
+	background-color: rgb(245, 245, 245);
+}
+h1, h2 {
+	font-family: "Raleways", sans-serif;
+	font-weight: bold;
+}
+h3 {
+	font-family: "EB Garamond", serif;
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+}
